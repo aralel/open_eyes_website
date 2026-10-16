@@ -1,4 +1,4 @@
-# Better Eyes website
+# Open Eyes website
 
 Static site for both apps (Android and iPhone), in English (root) and German (`de/`): landing page with an interactive editor demo, guide, FAQ, how photos
 are labelled, privacy policy, GDPR data protection page, imprint, support and a 404 page. Plain HTML, one stylesheet

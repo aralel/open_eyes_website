@@ -1,4 +1,4 @@
-// Better Eyes website: draws the illustrated people and runs the editor demo on the home page.
+// Open Eyes website: draws the illustrated people and runs the editor demo on the home page.
 // Plain script, no dependencies, no network requests.
 
 (function () {

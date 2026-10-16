@@ -1,4 +1,4 @@
-/* Better Eyes website. No external requests: system fonts only, every asset is local. */
+/* Open Eyes website. No external requests: system fonts only, every asset is local. */
 
 :root {
   --color-page: #eef2f7;
@@ -173,21 +173,9 @@ img, svg { max-width: 100%; }
 .button.is-quiet { background: transparent; color: var(--color-ink); border-color: var(--color-line); }
 
 .store-buttons { display: flex; flex-wrap: wrap; gap: 12px; margin: 8px 0 12px; }
-.store-badge {
-  display: inline-flex;
-  flex-direction: column;
-  justify-content: center;
-  min-height: 56px;
-  padding: 6px 20px;
-  border-radius: 14px;
-  background: var(--color-ink);
-  color: var(--color-page);
-  text-decoration: none;
-  line-height: 1.2;
-}
-.store-badge small { font-size: 0.75rem; opacity: 0.8; }
-.store-badge strong { font: 700 var(--step-1) / 1.1 var(--font-display); }
-.store-badge[aria-disabled="true"] { cursor: default; }
+.store-badge { display: inline-block; border-radius: 9px; line-height: 0; }
+.store-badge img { display: block; height: 54px; width: auto; }
+.store-badge:hover img { opacity: 0.85; }
 .availability-note { color: var(--color-ink-muted); font-size: var(--step--1); }
 
 /* ---- Hero -------------------------------------------------------------------------------- */
@@ -196,7 +184,7 @@ img, svg { max-width: 100%; }
 .hero .wrap { display: grid; gap: 40px; align-items: center; }
 @media (min-width: 960px) { .hero .wrap { grid-template-columns: 1fr 1.05fr; gap: 56px; } }
 .hero h1 { max-width: 14ch; }
-.hero-lede { font-size: var(--step-1); color: var(--color-ink-muted); max-width: 34rem; }
+.hero-lede { font-size: var(--step-1); color: var(--color-ink-muted); max-width: 35rem; }
 
 /* The live demo: the app's own editor in miniature. */
 .demo {
