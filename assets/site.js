@@ -80,7 +80,7 @@
   const demoStringsByLanguage = {
     en: {
       shotCaption: (shotNumber) => `Shot ${shotNumber}`,
-      favoriteSuffix: " (your favorite)",
+      favoriteSuffix: " (the photo to fix)",
       faceName: (faceNumber) => `Face ${faceNumber}`,
       faceFixed: (faceName) => `${faceName}, fixed`,
       faceImprovable: (faceName) => `${faceName}, can look better`,
@@ -101,7 +101,7 @@
     },
     de: {
       shotCaption: (shotNumber) => `Aufnahme ${shotNumber}`,
-      favoriteSuffix: " (dein Favorit)",
+      favoriteSuffix: " (das Foto zum Korrigieren)",
       faceName: (faceNumber) => `Gesicht ${faceNumber}`,
       faceFixed: (faceName) => `${faceName}, korrigiert`,
       faceImprovable: (faceName) => `${faceName}, geht noch besser`,
